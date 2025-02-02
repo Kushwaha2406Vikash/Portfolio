@@ -17,7 +17,7 @@ export const Bio = {
   github: "https://github.com/Kushwaha2406Vikash",
   gmail: "vikash.ku.2406@gmail.com",
   resume:
-    "",
+    "https://drive.google.com/file/d/1C9gvoBYFXKi_UptReZtMmJ2lOtzBG7Qs/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vikash-kushwaha-b36a71241/",
 
 };
