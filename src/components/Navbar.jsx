@@ -154,6 +154,7 @@ const Navbar = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="#CodingProfile">CodingProfile</NavLink>
+           <NavLink href="#Experience">Experience</NavLink>
         </NavItems>
 
         {isOpen && (

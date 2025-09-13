@@ -1,28 +1,91 @@
-
 import job from "../images/job.jpg";
 import realtimelc from "../images/realtimelc.jpg";
 import connectcall from "../images/connectcall.jpg";
 import movie from "../images/movie.jpg";
 import News from "../images/News.jpg";
+import Rag from "../images/Rag.png";
+import DSA from "../images/DSA.png";
+import Ticket from "../images/AI-Ticket.png";
+
 
 export const Bio = {
   name: "Vikash Kushwaha",
   roles: [
-    "Software Developer",
-    "Full Stack Developer",
-    "Programmer",
+    "Software Engineer",
+    "AI-Engineer",
+    "Generative AI Engineer",
+    "QA Automation Engineer",
   ],
   description:
-    "I'm a highly motivated and versatile individual with a strong aptitude for problem-solving and a deep commitment to continuous development. I enjoy tackling complex challenges, analyzing data, and developing effective solutions. I'm a firm believer in lifelong learning and actively pursue opportunities to expand my knowledge and skillset.",
+    `AI Engineer with expertise in Generative AI, Large Language Models (LLMs), and AI Agent Development. Skilled
+in building AI-powered applications and intelligent agents using LangChain, Hugging Face, OpenAI API, and
+MERN stack. Experienced in prompt engineering, retrieval-augmented generation (RAG), embeddings, and
+vector databases. Strong foundation in software engineering, system design, and full-stack web development
+with a focus on scalable AI-driven solutions.`,
   github: "https://github.com/Kushwaha2406Vikash",
   gmail: "vikash.ku.2406@gmail.com",
   resume:
     "https://drive.google.com/file/d/1C9gvoBYFXKi_UptReZtMmJ2lOtzBG7Qs/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vikash-kushwaha-b36a71241/",
-
 };
 
 export const skills = [
+  {
+    title: "Generative AND Ai Engineer",
+    skills: [
+      {
+        name: "AI-Chatbot",
+        image:
+          "https://wesoftyou.com/wp-content/uploads/2025/01/robot-1280x720_0.jpg",
+      },
+      {
+        name: "LLMs",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8BOaNhnGFCk399c8wAtAAQyY1RrrA32cIg&s",
+      },
+
+      {
+        name: "LangChain/LangGraph",
+        image:
+          "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5kXWahA1QfDIEKl9PmMdSX5k7EqAAn_rIAYgcYyMXkMv1kXhlzqdInhQxNAl5eJ-Y1DpTYJUoU3mZ4WOm61JPQcZ2gS_wAF-Ft61QdOpwb-RiexCC317J1SQND2jmsk9AufoAQA?key=b8JPR5qvs_bgbPdNxDhwaBFv",
+      },
+      {
+        name: "Vector Database",
+        image:
+          "https://static.vecteezy.com/system/resources/thumbnails/004/657/673/small_2x/database-line-style-icon-free-vector.jpg",
+      },
+      {
+        name: "Hugging face",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa2GhkgSOYtrt3FwyY4UFhkhsC1uGmMy9dmA&s",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/docker-library/docs/c350af05d3fac7b5c3f6327ac82fe4d990d8729c/docker/logo.png",
+      },
+      {
+        name: "OpenAI-SDK",
+        image:
+          "https://developer-blogs.nvidia.com/wp-content/uploads/2020/07/OpenAI-GPT-3-featured-image.png",
+      },
+      {
+        name: "Gemini-SDK",
+        image:
+          "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO24_WhatsInAName_SocialShare_S96SOzG.width-1300.png",
+      },
+       {
+        name: "MCP-Server",
+        image:
+          "https://base.vn/wp-content/uploads/2025/05/mcp-la-gi.webp",
+      },
+       {
+        name: "Pydantic",
+        image:
+          "https://pydantic.dev/opengraph-image.jpg?08a1fec112de0da9",
+      },
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -36,7 +99,7 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-     
+
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -58,14 +121,14 @@ export const skills = [
       },
       {
         name: "Tailwind CSS",
-        image: " https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        image:
+          " https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
       {
         name: "Shadcn UI",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EbC0goJm7ZAlOBf4ULsbm0VbRjUlxSf_tVpBYTwbYtRDfsd7C4tibKsydArrtOvxrKg&usqp=CAU",
       },
-   
     ],
   },
   {
@@ -80,9 +143,7 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-  
 
-   
       {
         name: "MySQL",
         image:
@@ -95,8 +156,8 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Supabase",
-        image: "data:image/jpeg;base64,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",
+        name: "FastAPI",
+        image: "https://alasco.tech/_astro/fastapi-logo.CrXoa3Er_Ztc4GC.webp",
       },
     ],
   },
@@ -149,26 +210,60 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
+    ],
+  },
+  {
+    title: "QA-Automation",
+    skills: [
+      {
+        name: "Selenium",
+        image:
+          "https://miro.medium.com/v2/resize:fit:1400/1*musVE9e4bgjTWeoRmc-P_w.png",
+      },
+      {
+        name: "Appium",
+        image:
+          "https://images.credly.com/images/af6eb254-169b-452a-a63c-5a1f986ed4cc/appium.png",
+      },
+
+      {
+        name: "RestAssured",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTf9u0YLV-Ku2FrWHnu5sRZ1EAuHBrBLL8g&s",
+      },
+
+      {
+        name: "TestNG",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQNAlnjz7175BbP_9jFu1-nyX0ONbZVy0YVA&s",
+      },
+      {
+        name: "Jenkins",
+        image: "https://www.jenkins.io/images/docker/dockerJenkins.png",
+      },
       {
         name: "Postman",
         image:
           "data:image/png;base64,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",
       },
-
+      {
+        name: "SHAFT : Unified Test Automation Engine",
+        image: "",
+      },
     ],
   },
 ];
 
-
 export const profiles = [
-  { id:0, 
+  {
+    id: 0,
     name: "Vikash Kushwaha",
     platform: "GeeksforGeeks",
     link: "https://www.geeksforgeeks.org/user/vikashkkushwaha2406/",
     img: "https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg",
   },
   {
-    id:5,
+    id: 5,
     name: "Vikash Kushwaha",
     platform: "LeetCode",
     link: "https://leetcode.com/u/Kushwaha2406/",
@@ -179,12 +274,13 @@ export const profiles = [
 export const education = [
   {
     id: 0,
-    img: "https://rkgit.edu.in/assets/images/slider/slide-1.jpg", // Use URL as a string
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1F45ih1VXNz5xFlsWNM7vjX7mEOSWE5cbw&s", // Use URL as a string
     school: "Raj Kumar Goel Institute Of Technology, Ghaziabad",
     date: "Sep 2021 - June 2025",
-    grade: "7.23 CGPA",
-    desc: "I am currently pursuing my studies and have a CGPA of 7.23. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Internet of Things, among others.",
-    degree: "Bachelor of Technology - BTech, Computer Science Engineering (IoT)",
+    grade: "7.31 CGPA",
+    desc: "I have successfully completed my B.Tech in Computer Science Engineering (IoT) with a CGPA of 7.31. During my studies, I gained knowledge in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Internet of Things, among other courses.",
+    degree:
+      "Bachelor of Technology - BTech, Computer Science Engineering (IoT)",
   },
 ];
 
@@ -192,10 +288,91 @@ export const education = [
 export const projects = [
   {
     id: 11,
+    title: "AI-Powered Ticket Management System",
+    description:
+      "An intelligent ticketing platform that leverages AI to automatically categorize, prioritize, and route support tickets to the most suitable moderators based on expertise, availability, and workload. By integrating NLP-driven classification, smart assignment algorithms, and real-time monitoring, it streamlines workflows, reduces resolution time, and ensures personalized, efficient support experiences. The system enhances productivity, minimizes human effort in repetitive tasks, and improves overall customer satisfaction and team efficiency.",
+    image: Ticket,
+    tags: [
+      "React Js",
+      "Gemini AI",
+      "Inngest",
+      "Tailwind CSS",
+      "Nodemailer",
+      "JWT",
+      "MERN",
+    ],
+    category: "web app",
+    github:
+      "https://github.com/Kushwaha2406Vikash/AI-Powered-Ticket-Assignment-System",
+    webapp: "https://ai-powered-ticket-assignment-system.vercel.app/",
+  },
+
+  {
+    id: 12,
+    title: "Constitution-Ai-Rag-System ",
+    description: `ConstitutionAI is an AI-powered Retrieval-Augmented Generation (RAG) system that delivers precise, multilingual responses on the Indian Constitution. Powered by Node.js, Express, VectorDB, and Large Language Models (LLMs), it uses the latest official Indian Constitution PDF as its primary knowledge source.
+      Key Features:
+
+🌍 Multilingual Support → Provides answers in multiple Indian and global languages for wider accessibility.
+
+📖 Trusted References → Responses are grounded in the latest version of the Indian Constitution.
+
+🤖 AI-Driven Insights → Combines concise answers with detailed legal explanations.
+
+⚡ Scalable & Interactive → Designed for learners, researchers, and legal professionals seeking reliable constitutional knowledge.
+       
+      `,
+    image: Rag,
+    tags: [
+      "React Js",
+      "Gemini AI",
+      "Node.js",
+      "Express",
+      "Google Gemini AI",
+      "LangChain",
+      "Pinecone",
+      "MongoDB",
+      "RAG",
+      "Multilingual AI",
+      "PDF Parsing",
+      "REST API",
+      "Cron Jobs",
+      "dotenv",
+      "MERN",
+    ],
+    category: "web app",
+    github: "https://github.com/Kushwaha2406Vikash/constitution-ai-rag",
+    webapp: "https://constitution-ai-rag-iyj4.vercel.app/",
+  },
+  {
+    id: 13,
+    title: "AI-DSA-Assistant-ChatBot- ",
+    description:
+      "An intelligent chatbot designed to provide comprehensive, step-by-step explanations for Data Structures and Algorithms (DSA). It leverages prompt engineering, few-shot learning, and chain-of-thought reasoning to deliver accurate solutions and intuitive breakdowns of complex problems. The assistant is domain-focused, strictly responding only to DSA-related queries while ignoring unrelated topics, ensuring clarity, precision, and distraction-free guidance. With real-time responsiveness, it acts as a personal DSA mentor, helping learners strengthen problem-solving skills, prepare for coding interviews, and master algorithmic thinking",
+    image: DSA,
+    tags: [
+      "React Js",
+      "Axios",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Google Gemini AI",
+      "Generative AI",
+      "REST API",
+      "dotenv",
+      "CORS",
+      "Nodemon",
+    ],
+    category: "web app",
+    github: "https://github.com/Kushwaha2406Vikash/AI-DSA-Assistant-ChatBot-",
+    webapp: "https://ai-dsa-assistant-chat-bot.vercel.app/",
+  },
+  {
+    id: 14,
     title: "HireSphere",
     description:
       "Developed **HireSphere**, a React.js app streamlining hiring. Candidates apply, save jobs, and recruiters manage listings seamlessly. Integrated **Clerk** for secure authentication, **Supabase** for real-time updates, and **Redux Toolkit** for state management. Built a modern, responsive UI with **ShadCN** & **Tailwind CSS**.",
-    image:job,
+    image: job,
     tags: [
       "React Js",
       "Shadcn UI",
@@ -209,39 +386,48 @@ export const projects = [
     webapp: "https://hire-black.vercel.app/",
   },
   {
-    id: 12,
+    id: 15,
+    title: "HireSphere",
+    description:
+      "Developed **HireSphere**, a React.js app streamlining hiring. Candidates apply, save jobs, and recruiters manage listings seamlessly. Integrated **Clerk** for secure authentication, **Supabase** for real-time updates, and **Redux Toolkit** for state management. Built a modern, responsive UI with **ShadCN** & **Tailwind CSS**.",
+    image: job,
+    tags: [
+      "React Js",
+      "Shadcn UI",
+      "Supabase",
+      "Tailwind CSS",
+      "Javascript",
+      "Clerk",
+    ],
+    category: "web app",
+    github: "https://github.com/Kushwaha2406Vikash/HireSphere",
+    webapp: "https://hire-black.vercel.app/",
+  },
+  {
+    id: 16,
     title: "ConnectCall",
     description:
-     "Built **ConnectCall**, a React-based calendar app for businesses to track and manage communications. Enables timely follow-ups, logs interactions, and streamlines relationship management. Integrated **React Calendar, Notifications, Charts.js/D3.js**, and **CSS** for an interactive UI and data-driven insights." ,
-    image:connectcall,
+      "Built **ConnectCall**, a React-based calendar app for businesses to track and manage communications. Enables timely follow-ups, logs interactions, and streamlines relationship management. Integrated **React Calendar, Notifications, Charts.js/D3.js**, and **CSS** for an interactive UI and data-driven insights.",
+    image: connectcall,
     tags: [
       "React Js",
       "HTML5",
       " CSS",
       "React Calendar",
       "React Notification",
-      "Charts.js/D3.js"
-     
+      "Charts.js/D3.js",
     ],
     category: "web app",
     github: "https://github.com/Kushwaha2406Vikash/ConnectCall",
     webapp: "https://connect-call.vercel.app/",
   },
   {
-    id: 9,
+    id: 17,
     title: "RealTimeLocationTraker",
     description:
-    "Developed a **real-time location tracking app** using **Node.js, Express, Socket.IO, and Leaflet.js**. Enables live location sharing on an interactive map, with seamless user updates. Built robust **disconnection handling** to auto-remove inactive users, ensuring a dynamic tracking experience.",
-    image:realtimelc,
-    tags: [
-      
-      "Node Js",
-      "Express Js",
-      "Socket.io", 
-      "Leaflet.js",
-      "Javascript",
-  
-    ],
+      "Developed a **real-time location tracking app** using **Node.js, Express, Socket.IO, and Leaflet.js**. Enables live location sharing on an interactive map, with seamless user updates. Built robust **disconnection handling** to auto-remove inactive users, ensuring a dynamic tracking experience.",
+    image: realtimelc,
+    tags: ["Node Js", "Express Js", "Socket.io", "Leaflet.js", "Javascript"],
     category: "web app",
     github: "https://github.com/Kushwaha2406Vikash/REAL-TIME-LOCATION-TRACKER",
     webapp: "https://real-time-location-tracker-ojes.onrender.com/",
@@ -251,7 +437,7 @@ export const projects = [
     title: "Press-Pulse",
     description:
       "Built **Press Pulse**, a real-time news aggregator using modern web tech. Fetches live headlines from top outlets like **The Hindu**, **The Economic Times**, **Al Jazeera**, and **The Guardian**. Optimized for speed with seamless **CORS & proxy handling** for quick updates.",
-    image:News,
+    image: News,
     tags: ["React Js", "Rss feeds", "Cors&Proxy", "Node.js"],
     category: "web app",
     github: "https://github.com/Kushwaha2406Vikash/PRESS-PULSE",
@@ -262,12 +448,31 @@ export const projects = [
     title: "Movie Theater Management System",
     description:
       "Developed a backend system for managing movie theaters, schedules, reservations, and payments using **Node.js**, **Express**, **MongoDB**, and **Stripe**. Features include **JWT authentication**, **role-based access**, movie CRUD operations, schedule management, seat reservations, **Stripe payment processing**, and **Joi validation** for request handling and error management.",
-    image:movie,
+    image: movie,
     tags: ["Node.Js", "Express.js", "MongoDB", "JWT authentication"],
     category: "web app",
-    github: "https://github.com/Kushwaha2406Vikash/Movie-Theater-Management-System",
+    github:
+      "https://github.com/Kushwaha2406Vikash/Movie-Theater-Management-System",
     webapp: "https://movie-theater-management-system.onrender.com/",
   },
-  
+];
+
+
+export const experience = [
+  {
+    company: "Round the Clock Technology Pvt. Ltd.",
+    role: "Software Engineer Intern",
+    date: "June 2025 - Agust 2025",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQHyRkv0k6_Vvw/company-logo_200_200/B56ZbDfWZ8GkAI-/0/1747036498475/round_the_clock_technologies_rtctek_logo?e=2147483647&v=beta&t=XzsH78eXohB_cey77jUbSPpLNs8yYZAI3FHrJT3Ajns",
+    skills: "MERN, Selenium, REST APIs, Automation,",
+    desc: "Worked on full-stack projects, developed automation scripts, and integrated AI-based features for client solutions."
+  },
+  {
+    company: "Round the Clock Technology Pvt. Ltd.",
+    role: "Trainee-Software Engineer",
+    date: "September 2025 – Paresent",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQHyRkv0k6_Vvw/company-logo_200_200/B56ZbDfWZ8GkAI-/0/1747036498475/round_the_clock_technologies_rtctek_logo?e=2147483647&v=beta&t=XzsH78eXohB_cey77jUbSPpLNs8yYZAI3FHrJT3Ajns",
+    
+  }
 ];
 
