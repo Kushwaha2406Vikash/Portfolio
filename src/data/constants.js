@@ -17,15 +17,15 @@ export const Bio = {
     "QA Automation Engineer",
   ],
   description:
-    `AI Engineer with expertise in Generative AI, Large Language Models (LLMs), and AI Agent Development. Skilled
-in building AI-powered applications and intelligent agents using LangChain, Hugging Face, OpenAI API, and
-MERN stack. Experienced in prompt engineering, retrieval-augmented generation (RAG), embeddings, and
-vector databases. Strong foundation in software engineering, system design, and full-stack web development
-with a focus on scalable AI-driven solutions.`,
+    `Backend AI Engineer specializing in production-grade LLM systems, RAG architectures, and 
+multi-agent orchestration using LangChain and LangGraph. Experienced in designing 
+scalable FastAPI backends, vector search systems, and enterprise AI assistants that reduce 
+operational workload. Strong focus on reliability, observability, and performance 
+optimization. `,
   github: "https://github.com/Kushwaha2406Vikash",
   gmail: "vikash.ku.2406@gmail.com",
   resume:
-    "https://drive.google.com/file/d/17z2GbNkg_jtMM0a-_1mby-4FQX34RTzy/view?usp=sharing",
+    "https://drive.google.com/file/d/1hmVdtZdsG1RgUUwWJvdHxe4UIxy0Kf-L/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vikash-kushwaha-b36a71241/",
 };
 
